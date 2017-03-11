@@ -1,0 +1,145 @@
+$(document).ready(
+	function()
+	{
+	$("#day1").hover(
+		function()
+		{
+				$(".fade1").toggleClass('fadeFinalState1');
+		}
+	);
+	//
+	$("#day2").hover(
+		function()
+		{
+				$(".fade2").toggleClass('fadeFinalState2');
+		}
+	);
+//
+$("#day5").hover(
+		function()
+		{
+				$(".fade5").toggleClass('fadeFinalState5');
+		}
+	);
+//
+$("#day6").hover(
+		function()
+		{
+				$(".fade6").toggleClass('fadeFinalState6');
+		}
+	);
+	//
+	$("#day7").hover(
+		function()
+		{
+				$(".fade7").toggleClass('fadeFinalState7');
+		}
+	);
+	//
+	$("#day13").hover(
+		function()
+		{
+				$(".fade13").toggleClass('fadeFinalState13');
+		}
+	);
+	//
+	$("#day14").hover(
+		function()
+		{
+				$(".fade14").toggleClass('fadeFinalState14');
+		}
+	);
+	//
+	$("#day1").click(
+		function()
+		{
+			$(".contentday1").toggleClass('finalState');
+		}
+
+		);
+	$("#x1").click(
+		function()
+		{
+			$(".contentday1").toggleClass('finalState');
+		}
+		);
+	$("#day2").click(
+		function()
+		{
+			$(".contentday2").toggleClass('finalState2');
+		}
+
+		);
+	$("#x2").click(
+		function()
+		{
+			$(".contentday2").toggleClass('finalState2');
+		}
+		);
+	$("#day5").click(
+		function()
+		{
+			$(".contentday5").toggleClass('finalState5');
+		}
+
+		);
+	$("#x5").click(
+		function()
+		{
+			$(".contentday5").toggleClass('finalState5');
+		}
+		);
+	$("#day6").click(
+		function()
+		{
+			$(".contentday6").toggleClass('finalState6');
+		}
+
+		);
+	$("#x6").click(
+		function()
+		{
+			$(".contentday6").toggleClass('finalState6');
+		}
+		);
+	$("#day7").click(
+		function()
+		{
+			$(".contentday7").toggleClass('finalState7');
+		}
+
+		);
+	$("#x7").click(
+		function()
+		{
+			$(".contentday7").toggleClass('finalState7');
+		}
+		);
+	$("#day13").click(
+		function()
+		{
+			$(".contentday13").toggleClass('finalState13');
+		}
+
+		);
+	$("#x13").click(
+		function()
+		{
+			$(".contentday13").toggleClass('finalState13');
+		}
+		);
+	$("#day14").click(
+		function()
+		{
+			$(".contentday14").toggleClass('finalState14');
+		}
+
+		);
+	$("#x14").click(
+		function()
+		{
+			$(".contentday14").toggleClass('finalState14');
+		}
+		);
+}
+);
